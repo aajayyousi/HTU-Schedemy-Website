@@ -4,7 +4,7 @@ export async function POST(request: Request) {
   try {
     const body = await request.json();
 
-    const res = await fetch('https://api.htufolio.com/email', {
+    const res = await fetch('https://ajapi.htufolio.com/email', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

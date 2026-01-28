@@ -1,7 +1,7 @@
 // app/api/schedules/route.ts
 import { NextResponse } from 'next/server';
 
-const API_URL = 'https://api.htufolio.com/schedules';
+const API_URL = 'https://ajapi.htufolio.com/schedules';
 
 export async function GET() {
   try {

@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-const TA_API_URL = 'https://api.htufolio.com/instructor/ta';
+const TA_API_URL = 'https://ajapi.htufolio.com/instructor/ta';
 
 export async function GET() {
   try {

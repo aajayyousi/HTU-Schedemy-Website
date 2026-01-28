@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   try {
-    const res = await fetch('https://api.htufolio.com/time', {
+    const res = await fetch('https://ajapi.htufolio.com/time', {
       cache: 'no-store',
     });
 
